@@ -1,4 +1,5 @@
 import tkinter as tk
+import time as t
 
 # 设置窗口大小和标题
 WIDTH = 500
@@ -47,6 +48,6 @@ while True:
     ball1.move()
     ball2.move()
     root.update()
-    tk.sleep(50)  # 等待50毫秒
+    t.sleep(50)  # 等待50毫秒
     
 root.mainloop()
