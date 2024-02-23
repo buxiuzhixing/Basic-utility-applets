@@ -1,6 +1,5 @@
 ﻿import tkinter as tk
 import random as r
-import time as t
 import os as o
 # 创建主窗口
 print("开始构建窗口……")
