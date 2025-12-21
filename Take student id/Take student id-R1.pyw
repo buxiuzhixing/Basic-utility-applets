@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
 import random
-import os
 
 # 创建主窗口
 root = tk.Tk()
@@ -30,7 +29,6 @@ def reset_interface():
     """重置界面到初始状态"""
     label.config(text=INITIAL_TEXT, font=INITIAL_FONT)
     root.title("抽学号")
-    os.system('cls' if os.name == 'nt' else 'clear')  # 清空控制台
 
 def show_about():
     """显示关于信息"""
